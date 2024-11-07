@@ -1,0 +1,43 @@
+.conteiner{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1.2fr 1fr;
+    height: 100vh;
+    width: 100vw;
+    
+}
+.item1{
+    background-color: red;
+    font-family: 'Courier New', Courier, monospace;
+    grid-row: span 2;
+    background-image: url(drink.jpg);
+    background-size: 100%;
+}   
+.item2{
+    background-color: aqua;
+    background-image: url(flores1.jpg);
+    background-size: 100%;
+    
+}
+.item3{
+    background-color: rgb(44, 141, 141);
+    grid-row: span 2;
+    background-image: url(house.jpg);
+    background-size: 100%;
+}   
+.item4{
+    background-color: bisque;
+    grid-row: span 2;
+    background-image: url(house2.jpg);
+    background-size: 100%;
+}   
+.item5{
+    background-color: blueviolet;
+    background-image: url(squirrel.jpg);
+    background-size: 100%;
+}   
+.item6{
+    background-color: cadetblue;
+    background-image: url(room.jpg);
+    background-size: 100%;
+}   
